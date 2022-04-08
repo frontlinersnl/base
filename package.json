@@ -1,0 +1,21 @@
+{
+    "name": "base",
+    "version": "1.0.0",
+    "description": "[![logo](./logo.jpg)](https://inforit.nl)",
+    "main": "Dockerfile",
+    "scripts": {
+        "build": "docker build -t inforitnl/base .",
+        "tag": "docker tag inforitnl/base",
+        "push": "docker push inforitnl/base"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Inforitnl/base.git"
+    },
+    "author": "Rick van Lieshout <info@rickvanlieshout.com> (http://rickvanlieshout.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Inforitnl/base/issues"
+    },
+    "homepage": "https://github.com/Inforitnl/base#readme"
+}
